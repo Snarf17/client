@@ -72,7 +72,7 @@ console.log(input.country);
               formData.set('eat', input.eat)
               formData.set('day', input.day)
               formData.set('night', input.night)
-              formData.set('date_trip', moment(input.date).format("YYYY MM DD"))
+              formData.set('date_trip', moment(input.date).format("YYYY-MM-DD"))
               formData.set('price', input.price)
               formData.set('quota', input.quota)
               formData.set('desc', input.desc)
